@@ -161,7 +161,7 @@ disable=format,
         # already a check enabled for `wildcard-import`
         unused-wildcard-import,
         misplaced-comparison-constant,
-        # probably soon: https://github.com/iterative/dvc/issues/1843
+        # probably soon: https://github.com/treeverse/dvc/issues/1843
         logging-format-interpolation,
         logging-fstring-interpolation,
         # we don't have proper docstrings yet
