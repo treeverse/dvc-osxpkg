@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   binary:
-    runs-on: macos-13
+    runs-on: macos-15-intel
     steps:
     - uses: actions/checkout@v6
 
@@ -70,7 +70,7 @@ jobs:
 
   installer:
     needs: binary
-    runs-on: macos-13
+    runs-on: macos-15-intel
     steps:
     - uses: actions/checkout@v6
 
@@ -132,7 +132,7 @@ jobs:
 
   notarize:
     needs: installer
-    runs-on: macos-13
+    runs-on: macos-15-intel
     steps:
     - uses: actions/checkout@v6
 
